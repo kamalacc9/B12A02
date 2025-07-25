@@ -1,0 +1,40 @@
+.noto-sans- {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* nav style */
+div ul li {
+  list-style: none;
+  gap: 48px;
+}
+div ul a {
+  text-decoration: none;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.nav-ul {
+  display: flex;
+  gap: 20px;
+}
+/* color style */
+.color-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+.color {
+  color: rgba(0, 0, 0, 1);
+}
+.Home {
+  color: rgba(37, 36, 50, 1);
+
+  font-weight: bold;
+}
+.li {
+  font-size: 22px;
+}
