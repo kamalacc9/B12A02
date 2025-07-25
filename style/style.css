@@ -30,6 +30,9 @@ div ul a {
 .color {
   color: rgba(0, 0, 0, 1);
 }
+.orange-color {
+  color: rgba(233, 90, 8, 1);
+}
 .Home {
   color: rgba(37, 36, 50, 1);
 
@@ -37,4 +40,32 @@ div ul a {
 }
 .li {
   font-size: 22px;
+}
+/* banner style */
+.banner {
+  display: flex;
+  margin-top: 211px;
+  margin-right: 175px;
+  margin-left: 125px;
+  margin-bottom: 130px;
+  gap: 0px;
+  max-width: 1140px;
+}
+.banner-child {
+  /* margin-top: 162px; */
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.banner-heading {
+  font-size: 65px;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+.banner-image {
+  /* width: 100%;
+  height: 100%;
+   */
+  width: 570px;
+  height: 355px;
+  margin-top: 65px;
 }
