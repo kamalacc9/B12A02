@@ -135,3 +135,13 @@ div ul a {
   top: -140px;
   left: 360px;
 }
+/* Latest Deals style */
+.latest-deals {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 157px;
+  margin-right: 150px;
+  margin-bottom: 125px;
+  margin-left: 150px;
+}
