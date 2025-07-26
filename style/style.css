@@ -145,3 +145,65 @@ div ul a {
   margin-bottom: 125px;
   margin-left: 150px;
 }
+/* Layout card style */
+.cards-container {
+  max-width: 1140px;
+  max-height: 428px;
+  margin-top: 123px;
+  margin-right: 142px;
+  margin-bottom: 126px;
+  margin-left: 158px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-layout {
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  padding: 20px;
+  width: 366px;
+  height: 206px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-1 {
+  background-image: url(../assets/deal-bloom.png);
+}
+.card-2 {
+  background-image: url(../assets/deal-ana.png);
+}
+.right {
+  background-image: url(../assets/deal-zabo.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 423px;
+  width: 753px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-layout a {
+  color: white;
+  text-decoration: underline;
+}
+.right h2 {
+  text-decoration: underline;
+  font-size: 28px;
+  font-weight: 700;
+}
+.card-layout h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
