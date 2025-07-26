@@ -247,3 +247,30 @@ div ul a {
   align-items: center;
   text-align: center;
 }
+/* footer style */
+.footer-container {
+  display: flex;
+  margin: 50px 160px;
+  justify-content: space-around;
+}
+.footer-li {
+  list-style: none;
+}
+.footer-ul {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-fc {
+  color: #6b7280;
+  font-size: 22px;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.footer-img {
+  height: 36px;
+  width: 36px;
+}
