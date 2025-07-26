@@ -2,7 +2,11 @@
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 /* nav style */
 .list-style {
@@ -206,4 +210,40 @@ div ul a {
 .card-layout h3 {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* colorful bunch style */
+.coloor-full {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.colorfun-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 199px;
+
+  padding-right: 305px;
+  padding-left: 305px;
+  padding-bottom: 193px;
+}
+.colorfun-container h2 {
+  color: rgba(255, 255, 255, 1);
+}
+.butt {
+  height: 54px;
+  width: 186px;
+}
+.email {
+  height: 50px;
+  width: 644px;
+}
+.colours-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
