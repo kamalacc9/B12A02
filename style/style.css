@@ -364,4 +364,103 @@ div ul a {
   .trusted-logo {
     display: none;
   }
+  /* Layout section */
+  .cards-container {
+    margin-top: 123px;
+    margin-right: 142px;
+    margin-bottom: 400px;
+    margin-left: 158px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    position: relative;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-layout {
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    padding: 20px;
+    width: 366px;
+    height: 206px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right {
+    background-image: url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* colourful bunch */
+
+  .coloor-full {
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-right: 0;
+  }
+  .colorfun-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 199px;
+
+    padding-right: 305px;
+    padding-left: 305px;
+    padding-bottom: 193px;
+  }
+  .colorfun-container h2 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .butt {
+    height: 54px;
+    width: 186px;
+  }
+  .email {
+    height: 50px;
+    width: 644px;
+  }
+  .colours-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* footer section */
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 160px;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+  .footer-icon {
+    margin-left: 0;
+    padding-left: 35px;
+  }
+  .footer-child {
+    margin-left: 0;
+    padding-left: 35px;
+  }
 }
