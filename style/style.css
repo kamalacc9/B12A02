@@ -376,7 +376,7 @@ div ul a {
     align-items: center;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 200px;
+    margin-left: 210px;
   }
   .card {
     width: 270px;
@@ -419,7 +419,7 @@ div ul a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
     padding-top: 50px;
   }
   /* Layout section */
